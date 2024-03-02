@@ -14,6 +14,7 @@
 		E20409B12B69353B00E35B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20409AF2B69353B00E35B6E /* LaunchScreen.storyboard */; };
 		E26ACAF62B91B6B90042675A /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ACAF52B91B6B90042675A /* SwipingController.swift */; };
 		E29862D42B694AFC007785DB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29862D32B694AFC007785DB /* Asset.xcassets */; };
+		E2FF11002B92DC4300011E29 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF10FF2B92DC4300011E29 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E20409B22B69353B00E35B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26ACAF52B91B6B90042675A /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		E29862D32B694AFC007785DB /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		E2FF10FF2B92DC4300011E29 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E20409A42B69353A00E35B6E /* AppDelegate.swift */,
 				E20409A62B69353A00E35B6E /* SceneDelegate.swift */,
 				E26ACAF52B91B6B90042675A /* SwipingController.swift */,
+				E2FF10FF2B92DC4300011E29 /* PageCell.swift */,
 				E20409A82B69353A00E35B6E /* ViewController.swift */,
 				E20409AA2B69353A00E35B6E /* Main.storyboard */,
 				E20409AF2B69353B00E35B6E /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20409A92B69353A00E35B6E /* ViewController.swift in Sources */,
+				E2FF11002B92DC4300011E29 /* PageCell.swift in Sources */,
 				E20409A52B69353A00E35B6E /* AppDelegate.swift in Sources */,
 				E20409A72B69353A00E35B6E /* SceneDelegate.swift in Sources */,
 				E26ACAF62B91B6B90042675A /* SwipingController.swift in Sources */,

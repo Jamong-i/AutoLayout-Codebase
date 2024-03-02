@@ -18,14 +18,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScence = scene as? UIWindowScene {
             //this is how we build out our app in code
             let window = UIWindow(windowScene: windowScence)
+            window.makeKeyAndVisible()
             
             let layout = UICollectionViewFlowLayout()
+            layout.scrollDirection = .horizontal
             let swipingController = SwipingController(collectionViewLayout: layout)
             window.rootViewController = swipingController
             
             self.window = window
-            window.makeKeyAndVisible()
-
 
         }
         
