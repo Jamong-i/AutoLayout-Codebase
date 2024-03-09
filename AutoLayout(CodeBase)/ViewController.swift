@@ -90,19 +90,6 @@ class ViewController: UIViewController {
     }
     
     fileprivate func setupBottomControls() {
-//        view.addSubview(previousButton)
-//        previousButton.backgroundColor = .red
-//        previousButton.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
-        
-//        let yellowView = UIView()
-//        yellowView.backgroundColor = .yellow
-        
-//        let greenView = UIView()
-//        greenView.backgroundColor = .green
-        
-//        let blueView = UIView()
-//        blueView.backgroundColor = .blue
-        
         let bottomControlsStackView = UIStackView(arrangedSubviews: [previousButton, pageControl ,nextButton])
         bottomControlsStackView.translatesAutoresizingMaskIntoConstraints = false
         bottomControlsStackView.distribution = .fillEqually
@@ -110,7 +97,6 @@ class ViewController: UIViewController {
         view.addSubview(bottomControlsStackView)
         
         NSLayoutConstraint.activate([
-//            previousButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             bottomControlsStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             bottomControlsStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
             bottomControlsStackView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
